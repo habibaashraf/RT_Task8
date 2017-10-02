@@ -4,3 +4,7 @@
 .navbar-brand{
     font-family:'Satisfy', cursive;
 }
+
+body {
+    background: white url("http://www.imperial.ac.uk/ImageCropToolT4/imageTool/uploaded-images/LIGHT-BLUE--tojpeg_1496152366596_x1.jpg")
+}
