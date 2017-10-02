@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
     <head>
 
@@ -7,8 +7,8 @@
 
         {% load staticfiles %}
 
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet"/>
         <link rel="stylesheet" type="text/css" href="{% static 'music/style.css' %}"/>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.6/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" ></script>
@@ -54,7 +54,7 @@
 
                     <ul class="nav navbar-nav navbar-right">
                           <li class="">
-                             <a href="#">
+                             <a href="{% url 'music:album-add' %}">
                                 <span class="glyphicon glyphicon-plus" aria-hidden="true"></span> &nbsp; Add Album
                              </a>
                           </li>
